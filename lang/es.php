@@ -1,0 +1,26 @@
+<?php
+// Textos del backoffice (español)
+return array_merge(require __DIR__ . '/comun.es.php', [
+    'error.csrf' => 'El formulario venció o no es válido. Vuelva a intentarlo.',
+    'auth.credenciales' => 'Correo o contraseña incorrectos.',
+    'auth.bloqueado' => 'Cuenta bloqueada temporalmente por intentos fallidos.',
+    'auth.solo_admin' => 'El backoffice es solo para administradores activos.',
+    'ok.guardado' => 'Cambios guardados.',
+    'menu.panel' => 'Panel', 'menu.usuarios' => 'Usuarios y roles', 'menu.incidencias' => 'Incidencias', 'menu.reportes' => 'Reportes',
+    'menu.parametros' => 'Parámetros', 'menu.catalogos' => 'Catálogos', 'menu.auditoria' => 'Auditoría', 'menu.salir' => 'Salir',
+    'usuarios.email_existente' => 'Ya existe un usuario con ese correo.',
+    'usuarios.documento_requerido' => 'El personal municipal debe tener cédula.',
+    'usuarios.centro_requerido' => 'El operario debe tener un centro asignado.',
+    'usuarios.no_auto_modificar' => 'No puede modificar su propio rol o estado.',
+    'usuarios.cuenta_aprobada' => 'Cuenta aprobada',
+    'usuarios.cuenta_aprobada_detalle' => 'Su cuenta fue aprobada. Bienvenido/a a SiGeRU.',
+    'usuarios.clave_temporal' => 'Contraseña temporal: :clave (cópiela ahora: no se vuelve a mostrar).',
+    'parametros.invalido' => 'El valor de :clave no es válido.',
+    'parametros.guardados' => 'Parámetros actualizados: :n.',
+    'incidencias.no_asignable' => 'La incidencia no se puede asignar en su estado actual o la cuadrilla no es válida.',
+    'incidencias.transicion_invalida' => 'Ese cambio de estado no está permitido.',
+    'incidencias.resolucion_requerida' => 'Describa cómo se resolvió la incidencia.',
+    'incidencias.asignada_desde_bo' => 'Asignada desde el backoffice',
+    'incidencias.tarea_nueva' => 'Nueva tarea asignada',
+    'catalogos.repetido' => 'Ya existe un registro con ese nombre.',
+]);

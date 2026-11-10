@@ -1,0 +1,26 @@
+<?php
+// Backoffice texts (English)
+return array_merge(require __DIR__ . '/comun.en.php', [
+    'error.csrf' => 'The form expired or is not valid. Please try again.',
+    'auth.credenciales' => 'Incorrect email or password.',
+    'auth.bloqueado' => 'Account temporarily locked after failed attempts.',
+    'auth.solo_admin' => 'The backoffice is only for active administrators.',
+    'ok.guardado' => 'Changes saved.',
+    'menu.panel' => 'Dashboard', 'menu.usuarios' => 'Users and roles', 'menu.incidencias' => 'Incidents', 'menu.reportes' => 'Reports',
+    'menu.parametros' => 'Parameters', 'menu.catalogos' => 'Catalogs', 'menu.auditoria' => 'Audit log', 'menu.salir' => 'Log out',
+    'usuarios.email_existente' => 'A user with that email already exists.',
+    'usuarios.documento_requerido' => 'Municipal staff must have an ID number.',
+    'usuarios.centro_requerido' => 'Operators must be assigned to a center.',
+    'usuarios.no_auto_modificar' => 'You cannot change your own role or status.',
+    'usuarios.cuenta_aprobada' => 'Account approved',
+    'usuarios.cuenta_aprobada_detalle' => 'Your account was approved. Welcome to SiGeRU.',
+    'usuarios.clave_temporal' => 'Temporary password: :clave (copy it now: it will not be shown again).',
+    'parametros.invalido' => 'The value of :clave is not valid.',
+    'parametros.guardados' => 'Parameters updated: :n.',
+    'incidencias.no_asignable' => 'The incident cannot be assigned in its current status or the crew is not valid.',
+    'incidencias.transicion_invalida' => 'That status change is not allowed.',
+    'incidencias.resolucion_requerida' => 'Describe how the incident was solved.',
+    'incidencias.asignada_desde_bo' => 'Assigned from the backoffice',
+    'incidencias.tarea_nueva' => 'New task assigned',
+    'catalogos.repetido' => 'A record with that name already exists.',
+]);

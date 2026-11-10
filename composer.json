@@ -1,0 +1,22 @@
+{
+    "name": "aplec-software/sigeru-backoffice",
+    "description": "SiGeRU - Backoffice de administración municipal",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "app/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
